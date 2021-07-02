@@ -54,7 +54,7 @@ module.exports = function HarRecorder() {
                 text: bodyString,
                 size: bodyString.length,
                 // mimeType: event.responseHeaders.find(header => header.name === 'content-type' || header.name === 'Content-Type').value,
-                mimeType: "a",
+                mimeType: null,
             }
 
             entries.push(entry);
